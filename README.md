@@ -381,6 +381,7 @@ Answer the following questions based on your understanding of the installation a
       Click on the "Initialize Repository" button (+) at the top of the Source Control view.
 
    Stage Changes:
+   ![alt text](Screenshots/stage_changes.png)
       In the Source Control view, you'll see a list of changes. Click on the + icon next to the files you want to stage for commit.
 
    Commit Changes:
@@ -390,6 +391,7 @@ Answer the following questions based on your understanding of the installation a
 
 
    Push Changes to GitHub:
+   ![alt text](Screenshots/PushChanges2.png)
       Create a repository on GitHub.
       In VS Code, go to the Source Control view and click on the ellipsis (...) next to the commit message.
       Select "Push" from the dropdown menu.
