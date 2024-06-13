@@ -82,23 +82,23 @@ Answer the following questions based on your understanding of the installation a
          HTML/CSS: Install "HTML CSS Support".
          C/C++: Install the "C/C++" extension.
 
-      Code Formatting:
-         Prettier - Code formatter: Install this for consistent code formatting.
-         ESLint: For JavaScript/TypeScript linting.
+   Code Formatting:
+      Prettier - Code formatter: Install this for consistent code formatting.
+      ESLint: For JavaScript/TypeScript linting.
 
-      Version Control:
-         GitLens: Enhances Git capabilities within VS Code.
+   Version Control:
+      GitLens: Enhances Git capabilities within VS Code.
 
-      Live Server:
-         Install "Live Server" to launch a development local server with live reload feature for static and dynamic pages.
-         Settings Sync:
+   Live Server:
+      Install "Live Server" to launch a development local server with live reload feature for static and dynamic pages.
+      Settings Sync:
 
-         Sync your settings, extensions, and preferences by signing in with your GitHub or Microsoft account.
-         Go to File > Preferences > Settings Sync > Turn On Settings Sync.
-         Follow the prompts to sign in and enable sync.
+      Sync your settings, extensions, and preferences by signing in with your GitHub or Microsoft account.
+      Go to File > Preferences > Settings Sync > Turn On Settings Sync.
+      Follow the prompts to sign in and enable sync.
 
 
-1. User Interface Overview:
+3. User Interface Overview:
    - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
 
 
@@ -150,14 +150,14 @@ Answer the following questions based on your understanding of the installation a
       EOL (End of Line) Sequence: Shows the current EOL sequence (e.g., LF, CRLF) and allows changing it.
       Notifications: Displays notifications and messages from VS Code and extensions.
 
-2. Command Palette:
+4. Command Palette:
    ![command palette](Screenshots/command.png)
    - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
 
       Command Palette in VS Code
       The Command Palette in Visual Studio Code is a powerful tool that allows users to execute various commands and operations within the editor. It provides a quick and efficient way to access functionalities without needing to navigate through menus or remember keyboard shortcuts.
 
-            To access the command palette; Click on View > Command Palette.
+         To access the command palette; Click on View > Command Palette.
 
    Examples of Common Tasks
 
@@ -309,17 +309,17 @@ Answer the following questions based on your understanding of the installation a
 
    Navigating Between Files and Directories.
 
-      Using Keyboard Shortcuts:
-         Press Ctrl+P Windows/Linux to open the Quick Open menu.
-         Start typing the file name to quickly navigate to it.
+   Using Keyboard Shortcuts:
+      Press Ctrl+P Windows/Linux to open the Quick Open menu.
+      Start typing the file name to quickly navigate to it.
 
-      Using the Explorer View:
-         Click on the Explorer icon in the Activity Bar.
-         Navigate through folders by clicking on them.
+   Using the Explorer View:
+      Click on the Explorer icon in the Activity Bar.
+      Navigate through folders by clicking on them.
 
-      Using the Command Palette:
-         Press Ctrl+Shift+P to open the Command Palette.
-         Type "File: Open File" to quickly open a specific file.
+   Using the Command Palette:
+      Press Ctrl+Shift+P to open the Command Palette.
+      Type "File: Open File" to quickly open a specific file.
 
 6. Settings and Preferences:
    - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
@@ -399,7 +399,7 @@ Answer the following questions based on your understanding of the installation a
       Enter your GitHub credentials if prompted.
       Once the push is complete, your changes will be reflected on GitHub.
 
-
+            
  Submission Guidelines:
 - Your answers should be well-structured, concise, and to the point.
 - Provide screenshots or step-by-step instructions where applicable.
