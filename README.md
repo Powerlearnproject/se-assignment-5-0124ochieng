@@ -16,13 +16,19 @@ Answer the following questions based on your understanding of the installation a
 
       Check the system requirements. These requirements help you know whether your computer supports Visual Studio.
       Make sure that the user performing the initial installation has administrator permissions on the machine.
+      ![OS requirements](Screenshots/OS.png) 
+
       Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
       Reboot. The reboot ensures that any pending installs or updates don't hinder your Visual Studio install.
       Free up space. Remove unneeded files and applications from your system drive by, for example, running the Disk Cleanup app.
+       ![System Requirements](Screenshots/System.png)
 
    Step 2 -
-      Go to the Visual Studio Code download page.
+      Go to the Visual Studio Code download page. [https://code.visualstudio.com/]
       Determine which version and edition of Visual Studio to install
+
+      ![The download page](Screenshots/Download_page.png)
+
 
    Step 3 - 
       Initiate the installation.
@@ -30,10 +36,13 @@ Answer the following questions based on your understanding of the installation a
    Step 4 - 
       Choose workloads
       After the Visual Studio Installer is installed, you can use it to customize your installation by selecting the feature sets—or workloads—that you want.
+
+      ![Setup page](Screenshots/Setup.png)
+
       Select the workload you want in the Visual Studio Installer.
       After you choose the workload you want, select Install.
 
-      Wait for the installation to complete.
+      Wait for the installation to complete.  
 
    Step 5 - 
       Launch VS Code:
@@ -44,6 +53,8 @@ Answer the following questions based on your understanding of the installation a
 
 2. First-time Setup:
    - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+  
+  ![VSC Interface](Screenshots/VSC_Interface.png)
 
     User Interface Settings:
 
@@ -62,9 +73,9 @@ Answer the following questions based on your understanding of the installation a
       Set "Insert Spaces" to use spaces instead of tabs.
 
    Auto Save:
-      Enable auto save by setting "Files: Auto Save" to "afterDelay".
+      Enable auto save by setting "Files: Auto Save" to "afterDelay"
 
-   Extensions:
+   Extensions: ![VSC Interface](Screenshots/Extensions.png)
       Language Support:
          Python: Install the "Python" extension.
          JavaScript/TypeScript: Install the "ESLint" extension.
@@ -87,11 +98,12 @@ Answer the following questions based on your understanding of the installation a
          Follow the prompts to sign in and enable sync.
 
 
-3. User Interface Overview:
+1. User Interface Overview:
    - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
 
 
    Activity Bar:
+   ![VSC Interface](Screenshots/VSC_Interface1.png)
 
       Location: The vertical bar on the far left side of the window.
       Purpose: Provides access to different views and features in VS Code.
@@ -103,6 +115,7 @@ Answer the following questions based on your understanding of the installation a
       Extensions: Browse and install VS Code extensions to enhance functionality.
 
    Side Bar:
+   ![VSC Interface](Screenshots/Extensions1.png)
 
       Location: To the right of the Activity Bar.
       Purpose: Displays contextual information and tools related to the currently selected activity in the Activity Bar.
@@ -114,6 +127,7 @@ Answer the following questions based on your understanding of the installation a
       Extensions Panel: Manage installed extensions and browse new ones.
 
    Editor Group:
+   ![VSC Interface](Screenshots/Editor_group1.png)
 
       Location: The central area of the VS Code window.
       Purpose: The main area where you edit your code files.
@@ -123,6 +137,7 @@ Answer the following questions based on your understanding of the installation a
       Minimap: A small overview of your code on the right side of the editor, allowing for quick navigation.
 
    Status Bar:
+   ![VSC Interface](Screenshots/Editor_group2.png)
 
       Location: The horizontal bar at the bottom of the window.
       Purpose: Provides information about the current state of the editor and your project.
@@ -135,7 +150,8 @@ Answer the following questions based on your understanding of the installation a
       EOL (End of Line) Sequence: Shows the current EOL sequence (e.g., LF, CRLF) and allows changing it.
       Notifications: Displays notifications and messages from VS Code and extensions.
 
-4. Command Palette:
+2. Command Palette:
+   ![command palette](Screenshots/command.png)
    - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
 
       Command Palette in VS Code
@@ -178,18 +194,19 @@ Answer the following questions based on your understanding of the installation a
          Launch debugging sessions or run code without debugging.
 
 
-5. Extensions in VS Code:
+3. Extensions in VS Code:
    - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
 
       Extensions in Visual Studio Code (VS Code) enhance its functionality by adding new features, tools, and language support. They allow users to customize their coding environment to suit their specific needs and workflows. Extensions can range from language support for programming languages to debuggers, linters, themes, and more.
 
    Finding Extensions:
+   ![alt text](Screenshots/Extensions1.png)
 
       Open the Extensions view by clicking on the Extensions icon in the Activity Bar or pressing Ctrl+Shift+X.
       Use the search bar to find extensions by name or functionality.
 
    Installing Extensions:
-
+   ![alt text](Screenshots/Extensions1-1.png)
       Click on the extension you want to install.
       Click the "Install" button next to the extension description.
       Wait for the installation to complete.
@@ -219,7 +236,8 @@ Answer the following questions based on your understanding of the installation a
    Debugger for Chrome:
       Allows debugging JavaScript code in the Chrome browser directly from VS Code.
 
-6. Integrated Terminal:
+4. Integrated Terminal:
+   ![alt text](Screenshots/terminal.png)
    - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
   
       Opening and Using the Integrated Terminal in VS Code
@@ -257,9 +275,10 @@ Answer the following questions based on your understanding of the installation a
       Customize terminal appearance, behavior, and key bindings to suit personal preferences.
       Extend functionality with terminal-specific VS Code extensions.
 
-7. File and Folder Management:
+5. File and Folder Management:
    - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
   
+  ![alt text](Screenshots/NewFile.png)
    Creating a New File:
       Click on the Explorer icon in the Activity Bar.
       Right-click on the desired folder or workspace.
@@ -302,12 +321,13 @@ Answer the following questions based on your understanding of the installation a
          Press Ctrl+Shift+P to open the Command Palette.
          Type "File: Open File" to quickly open a specific file.
 
-8. Settings and Preferences:
+6. Settings and Preferences:
    - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
   
       Use the Settings editor to review and change VS Code settings. To open the Settings editor, navigate to File > Preferences > Settings. Alternately, open the Settings editor from the Command Palette (Ctrl+Shift+P) with Preferences: Open Settings or use the keyboard shortcut (Ctrl+,).
       
    Changing the Theme:
+   ![alt text](Screenshots/settings.png)
       Open the Settings view (Ctrl+,).
       Search for "Color Theme".
       Select your desired theme from the dropdown list.
@@ -317,7 +337,7 @@ Answer the following questions based on your understanding of the installation a
       Search for "Font Size".
       Modify the value to adjust the font size.
 
-9. Debugging in VS Code:
+7. Debugging in VS Code:
    - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
 
    Open your project in VS Code.
@@ -352,11 +372,11 @@ Answer the following questions based on your understanding of the installation a
    Debug Console:
    Use the Debug Console to execute ad-hoc code and evaluate expressions during debugging.
 
-10.  Using Source Control:
+8.   Using Source Control:
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
 
    Initialize Repository:
-
+![alt text](Screenshots/Repo.png)
       Open the Source Control view by clicking on the Source Control icon in the Activity Bar on the side or by pressing Ctrl+Shift+G.
       Click on the "Initialize Repository" button (+) at the top of the Source Control view.
 
@@ -364,6 +384,7 @@ Answer the following questions based on your understanding of the installation a
       In the Source Control view, you'll see a list of changes. Click on the + icon next to the files you want to stage for commit.
 
    Commit Changes:
+   ![alt text](Screenshots/commit.png)
       Enter a commit message in the text box provided at the top of the Source Control view.
       Click the checkmark icon or use the keyboard shortcut Ctrl+Enter to commit the changes.
 
